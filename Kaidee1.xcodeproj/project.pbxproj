@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		EB62424D1EB1CFD6008483EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB62424C1EB1CFD6008483EB /* AppDelegate.swift */; };
-		EB62424F1EB1CFD6008483EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB62424E1EB1CFD6008483EB /* ViewController.swift */; };
 		EB6242521EB1CFD6008483EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB6242501EB1CFD6008483EB /* Main.storyboard */; };
 		EB6242541EB1CFD6008483EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6242531EB1CFD6008483EB /* Assets.xcassets */; };
 		EB6242571EB1CFD6008483EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB6242551EB1CFD6008483EB /* LaunchScreen.storyboard */; };
 		EB6242621EB1CFD6008483EB /* Kaidee1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6242611EB1CFD6008483EB /* Kaidee1Tests.swift */; };
 		EB62426D1EB1CFD6008483EB /* Kaidee1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB62426C1EB1CFD6008483EB /* Kaidee1UITests.swift */; };
+		EB62427B1EB1FF51008483EB /* FirstPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB62427A1EB1FF51008483EB /* FirstPageViewController.swift */; };
+		EB62427F1EB218D0008483EB /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB62427E1EB218D0008483EB /* Color.swift */; };
+		EB6242811EB22638008483EB /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6242801EB22638008483EB /* NewsFeedViewController.swift */; };
+		EB6242831EB22A3E008483EB /* NewProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6242821EB22A3E008483EB /* NewProductTableViewCell.swift */; };
+		EB6242851EB22A57008483EB /* PromotionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6242841EB22A57008483EB /* PromotionTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		EB6242491EB1CFD6008483EB /* Kaidee1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kaidee1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB62424C1EB1CFD6008483EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EB62424E1EB1CFD6008483EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EB6242511EB1CFD6008483EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB6242531EB1CFD6008483EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB6242561EB1CFD6008483EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,11 @@
 		EB6242681EB1CFD6008483EB /* Kaidee1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kaidee1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB62426C1EB1CFD6008483EB /* Kaidee1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kaidee1UITests.swift; sourceTree = "<group>"; };
 		EB62426E1EB1CFD6008483EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB62427A1EB1FF51008483EB /* FirstPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstPageViewController.swift; sourceTree = "<group>"; };
+		EB62427E1EB218D0008483EB /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		EB6242801EB22638008483EB /* NewsFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsFeedViewController.swift; sourceTree = "<group>"; };
+		EB6242821EB22A3E008483EB /* NewProductTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewProductTableViewCell.swift; sourceTree = "<group>"; };
+		EB6242841EB22A57008483EB /* PromotionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromotionTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +105,9 @@
 		EB62424B1EB1CFD6008483EB /* Kaidee1 */ = {
 			isa = PBXGroup;
 			children = (
+				EB62427D1EB218C4008483EB /* Extension */,
+				EB62427C1EB21881008483EB /* ViewController */,
 				EB62424C1EB1CFD6008483EB /* AppDelegate.swift */,
-				EB62424E1EB1CFD6008483EB /* ViewController.swift */,
 				EB6242501EB1CFD6008483EB /* Main.storyboard */,
 				EB6242531EB1CFD6008483EB /* Assets.xcassets */,
 				EB6242551EB1CFD6008483EB /* LaunchScreen.storyboard */,
@@ -123,6 +132,25 @@
 				EB62426E1EB1CFD6008483EB /* Info.plist */,
 			);
 			path = Kaidee1UITests;
+			sourceTree = "<group>";
+		};
+		EB62427C1EB21881008483EB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EB62427A1EB1FF51008483EB /* FirstPageViewController.swift */,
+				EB6242801EB22638008483EB /* NewsFeedViewController.swift */,
+				EB6242821EB22A3E008483EB /* NewProductTableViewCell.swift */,
+				EB6242841EB22A57008483EB /* PromotionTableViewCell.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		EB62427D1EB218C4008483EB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EB62427E1EB218D0008483EB /* Color.swift */,
+			);
+			name = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +287,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB62424F1EB1CFD6008483EB /* ViewController.swift in Sources */,
+				EB62427B1EB1FF51008483EB /* FirstPageViewController.swift in Sources */,
+				EB62427F1EB218D0008483EB /* Color.swift in Sources */,
 				EB62424D1EB1CFD6008483EB /* AppDelegate.swift in Sources */,
+				EB6242811EB22638008483EB /* NewsFeedViewController.swift in Sources */,
+				EB6242831EB22A3E008483EB /* NewProductTableViewCell.swift in Sources */,
+				EB6242851EB22A57008483EB /* PromotionTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
