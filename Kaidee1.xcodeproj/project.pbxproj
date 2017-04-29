@@ -20,6 +20,7 @@
 		EB6242851EB22A57008483EB /* PromotionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6242841EB22A57008483EB /* PromotionTableViewCell.swift */; };
 		EB9663411EB3B26F004891A9 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9663401EB3B26F004891A9 /* UserProfileViewController.swift */; };
 		EB9663431EB3B439004891A9 /* UserProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9663421EB3B439004891A9 /* UserProfileTableViewCell.swift */; };
+		EFBDD75C1EB493AA008E03FC /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBDD75B1EB493AA008E03FC /* NotificationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		EB6242841EB22A57008483EB /* PromotionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromotionTableViewCell.swift; sourceTree = "<group>"; };
 		EB9663401EB3B26F004891A9 /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
 		EB9663421EB3B439004891A9 /* UserProfileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileTableViewCell.swift; sourceTree = "<group>"; };
+		EFBDD75B1EB493AA008E03FC /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,12 +143,10 @@
 		EB62427C1EB21881008483EB /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				EB62427A1EB1FF51008483EB /* FirstPageViewController.swift */,
-				EB6242801EB22638008483EB /* NewsFeedViewController.swift */,
-				EB6242821EB22A3E008483EB /* NewProductTableViewCell.swift */,
-				EB6242841EB22A57008483EB /* PromotionTableViewCell.swift */,
-				EB9663401EB3B26F004891A9 /* UserProfileViewController.swift */,
-				EB9663421EB3B439004891A9 /* UserProfileTableViewCell.swift */,
+				EFBDD7601EB493EC008E03FC /* Profile */,
+				EFBDD75F1EB493E3008E03FC /* Notification */,
+				EFBDD75E1EB493C6008E03FC /* NewsFeed */,
+				EFBDD75D1EB493BB008E03FC /* FirstPage */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -157,6 +157,41 @@
 				EB62427E1EB218D0008483EB /* Color.swift */,
 			);
 			name = Extension;
+			sourceTree = "<group>";
+		};
+		EFBDD75D1EB493BB008E03FC /* FirstPage */ = {
+			isa = PBXGroup;
+			children = (
+				EB62427A1EB1FF51008483EB /* FirstPageViewController.swift */,
+			);
+			name = FirstPage;
+			sourceTree = "<group>";
+		};
+		EFBDD75E1EB493C6008E03FC /* NewsFeed */ = {
+			isa = PBXGroup;
+			children = (
+				EB6242801EB22638008483EB /* NewsFeedViewController.swift */,
+				EB6242821EB22A3E008483EB /* NewProductTableViewCell.swift */,
+				EB6242841EB22A57008483EB /* PromotionTableViewCell.swift */,
+			);
+			name = NewsFeed;
+			sourceTree = "<group>";
+		};
+		EFBDD75F1EB493E3008E03FC /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				EFBDD75B1EB493AA008E03FC /* NotificationViewController.swift */,
+			);
+			name = Notification;
+			sourceTree = "<group>";
+		};
+		EFBDD7601EB493EC008E03FC /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				EB9663401EB3B26F004891A9 /* UserProfileViewController.swift */,
+				EB9663421EB3B439004891A9 /* UserProfileTableViewCell.swift */,
+			);
+			name = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,6 +333,7 @@
 				EB9663411EB3B26F004891A9 /* UserProfileViewController.swift in Sources */,
 				EB62427F1EB218D0008483EB /* Color.swift in Sources */,
 				EB62424D1EB1CFD6008483EB /* AppDelegate.swift in Sources */,
+				EFBDD75C1EB493AA008E03FC /* NotificationViewController.swift in Sources */,
 				EB6242811EB22638008483EB /* NewsFeedViewController.swift in Sources */,
 				EB6242831EB22A3E008483EB /* NewProductTableViewCell.swift in Sources */,
 				EB6242851EB22A57008483EB /* PromotionTableViewCell.swift in Sources */,
