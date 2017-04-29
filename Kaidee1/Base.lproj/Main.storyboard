@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--News Feed View Controller-->
         <scene sceneID="zhk-LV-e7w">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BFZ-5X-0IT" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BFZ-5X-0IT" customClass="NewsFeedViewController" customModule="Kaidee1" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="JNW-0I-TtX"/>
                         <viewControllerLayoutGuide type="bottom" id="V4u-RQ-fRG"/>
@@ -26,7 +26,7 @@
                                 <rect key="frame" x="0.0" y="65" width="375" height="553"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="350" id="a6i-gU-uaO" customClass="NewProductTableViewCell" customModule="Kaidee1" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="newProduct" rowHeight="350" id="a6i-gU-uaO" customClass="NewProductTableViewCell" customModule="Kaidee1" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="350"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="a6i-gU-uaO" id="V5R-DL-i6t">
@@ -88,15 +88,18 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="LFB-iW-27x"/>
+                    <connections>
+                        <outlet property="tableView" destination="QDd-Ek-Brn" id="sCB-Y0-mEz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pnL-Mh-8fh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1420" y="67.916041979010501"/>
         </scene>
-        <!--View Controller-->
+        <!--User Profile View Controller-->
         <scene sceneID="PKj-Sf-gOg">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="gAK-iB-cAs" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="gAK-iB-cAs" customClass="UserProfileViewController" customModule="Kaidee1" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="a9z-ma-aAE"/>
                         <viewControllerLayoutGuide type="bottom" id="5Tq-aw-f3S"/>
@@ -109,7 +112,7 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="554"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="222" id="gb8-8C-xQS" customClass="UserProfileTableViewCell" customModule="Kaidee1" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="userInfo" rowHeight="222" id="gb8-8C-xQS" customClass="UserProfileTableViewCell" customModule="Kaidee1" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="222"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gb8-8C-xQS" id="Zwr-uX-3Vm">
@@ -223,6 +226,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="AOS-7V-sxf"/>
+                    <connections>
+                        <outlet property="tableView" destination="5Ox-Oy-nln" id="Ll4-eE-BDe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7wH-Of-zDS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
