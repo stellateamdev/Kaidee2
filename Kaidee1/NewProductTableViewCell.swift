@@ -11,8 +11,8 @@ import UIKit
 class NewProductTableViewCell: UITableViewCell {
     
     @IBOutlet weak var titleLabel:UILabel!
-    @IBOutlet weak var subTitleLabel:UILabel!
-    @IBOutlet weak var imageContainer:UIImage!
+    @IBOutlet weak var username:UIButton!
+    @IBOutlet weak var imageContainer:UIImageView!
     @IBOutlet weak var price:UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()

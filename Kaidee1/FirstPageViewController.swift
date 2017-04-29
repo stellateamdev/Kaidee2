@@ -15,6 +15,7 @@ class FirstPageViewController: UIViewController {
     @IBOutlet weak var buyLabel: UILabel!
     @IBOutlet weak var sellLabel: UILabel!
     @IBOutlet weak var buttonLabel: UILabel!
+    
     override func viewWillAppear(_ animated: Bool) {
         buyButton.layer.cornerRadius = buyButton.layer.frame.size.width/2.0
         buyButton.setTitleColor(UIColor.white, for: .normal)
@@ -35,8 +36,6 @@ class FirstPageViewController: UIViewController {
         
         self.navigationController?.navigationBar.tintColor = UIColor.white
         self.navigationController?.navigationBar.barTintColor = UIColor.kaideeBlue()
-        
-        
     }
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,6 +43,7 @@ class FirstPageViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    
     func prepareViewdidLoad() {
         
         let button = UIButton(frame: CGRect(x: 0, y: 0, width: 49, height: 30))
@@ -59,6 +59,7 @@ class FirstPageViewController: UIViewController {
         searchBar.placeholder = "ค้นหา"
         self.navigationItem.titleView = searchBar
     }
+    
     func gotoSell() {
         
     }

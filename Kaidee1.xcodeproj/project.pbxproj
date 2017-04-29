@@ -18,6 +18,8 @@
 		EB6242811EB22638008483EB /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6242801EB22638008483EB /* NewsFeedViewController.swift */; };
 		EB6242831EB22A3E008483EB /* NewProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6242821EB22A3E008483EB /* NewProductTableViewCell.swift */; };
 		EB6242851EB22A57008483EB /* PromotionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6242841EB22A57008483EB /* PromotionTableViewCell.swift */; };
+		EB9663411EB3B26F004891A9 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9663401EB3B26F004891A9 /* UserProfileViewController.swift */; };
+		EB9663431EB3B439004891A9 /* UserProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9663421EB3B439004891A9 /* UserProfileTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		EB6242801EB22638008483EB /* NewsFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsFeedViewController.swift; sourceTree = "<group>"; };
 		EB6242821EB22A3E008483EB /* NewProductTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewProductTableViewCell.swift; sourceTree = "<group>"; };
 		EB6242841EB22A57008483EB /* PromotionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromotionTableViewCell.swift; sourceTree = "<group>"; };
+		EB9663401EB3B26F004891A9 /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		EB9663421EB3B439004891A9 /* UserProfileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +145,8 @@
 				EB6242801EB22638008483EB /* NewsFeedViewController.swift */,
 				EB6242821EB22A3E008483EB /* NewProductTableViewCell.swift */,
 				EB6242841EB22A57008483EB /* PromotionTableViewCell.swift */,
+				EB9663401EB3B26F004891A9 /* UserProfileViewController.swift */,
+				EB9663421EB3B439004891A9 /* UserProfileTableViewCell.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -288,6 +294,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB62427B1EB1FF51008483EB /* FirstPageViewController.swift in Sources */,
+				EB9663431EB3B439004891A9 /* UserProfileTableViewCell.swift in Sources */,
+				EB9663411EB3B26F004891A9 /* UserProfileViewController.swift in Sources */,
 				EB62427F1EB218D0008483EB /* Color.swift in Sources */,
 				EB62424D1EB1CFD6008483EB /* AppDelegate.swift in Sources */,
 				EB6242811EB22638008483EB /* NewsFeedViewController.swift in Sources */,
@@ -539,6 +547,7 @@
 				EB6242731EB1CFD7008483EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB6242741EB1CFD7008483EB /* Build configuration list for PBXNativeTarget "Kaidee1Tests" */ = {
 			isa = XCConfigurationList;
@@ -547,6 +556,7 @@
 				EB6242761EB1CFD7008483EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB6242771EB1CFD7008483EB /* Build configuration list for PBXNativeTarget "Kaidee1UITests" */ = {
 			isa = XCConfigurationList;
@@ -555,6 +565,7 @@
 				EB6242791EB1CFD7008483EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
