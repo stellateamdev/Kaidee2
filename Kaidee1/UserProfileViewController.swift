@@ -8,48 +8,86 @@
 
 import UIKit
 
-class UserProfileViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class UserProfileViewController: UIViewController,UICollectionViewDelegate, UICollectionViewDataSource {
     
-    @IBOutlet weak var tableView:UITableView!
-
+    @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var scrollView:UIScrollView!
+    @IBOutlet weak var profileView:ProfileViewCell!
+    var collectionViewLayout: CustomImageFlowLayout!
+    
+    @IBOutlet weak var buttomConstrain: NSLayoutConstraint!
+    @IBOutlet weak var CollectionViewHeight: NSLayoutConstraint!
+    
+    override func viewWillLayoutSubviews(){
+        super.viewWillLayoutSubviews()
+       setScrollView()
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.navigationBar.barTintColor = UIColor.kaideeBlue()
+        self.navigationItem.title = "ฉัน"
+        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName:UIColor.white]
+    }
+    
     override func viewDidLoad() {
-        super.viewDidLoad()
-        tableView.delegate = self
-        tableView.dataSource = self
         
-
-        // Do any additional setup after loading the view.
+        super.viewDidLoad()
+        
+        let collectionViewLayout = CustomImageFlowLayout()
+        collectionView.collectionViewLayout = collectionViewLayout
+        collectionView.backgroundColor = .white
+        collectionView.delegate = self
+        collectionView.dataSource = self
+        
+        setCurrentUserProfile()
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-        
     }
-    func numberOfSections(in tableView: UITableView) -> Int {
+    
+    
+    func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1
     }
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 25
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "userInfo", for: indexPath) as! UserProfileTableViewCell
-        cell.favourite.text = "yo"
-        cell.products.text = "hello"
-        return cell
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "collectionCell", for: indexPath) as! CollectionViewCell
         
+        
+        let title = (indexPath.row % 2 == 0) ? "Human" : "Car"
+        let price = (indexPath.row % 2 == 0) ? "1000.-" : "2000.-"
+       
+        cell.titleLabel.text = title
+        cell.price.text = price
+        cell.configureImage(num: indexPath.row)
+        
+        return cell
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func setScrollView() {
+        
+        scrollView.contentSize = CGSize(width: self.collectionView.frame.size.width, height: self.collectionView.contentSize.height+self.profileView.frame.size.height)
+        CollectionViewHeight.constant = collectionView.contentSize.height
+        buttomConstrain.constant = -(collectionView.contentSize.height)
+        self.view.setNeedsLayout()
     }
-    */
+    
+    func setCurrentUserProfile() {
+        profileView.favourite.text = "ผู้ขายโปรด"
+        profileView.favouriteNum.text = "100"
+        profileView.products.text = "สินค้า"
+        profileView.productsNum.text = "40"
+        profileView.profileButton.setTitle("แก้ไขข้อมูลส่วนตัว", for: .normal)
+        profileView.profileDescription.text = "Your wish is my command"
+        profileView.userName.text = "Commander"
+        profileView.profileImage.image = UIImage(named: "trump")
+        profileView.coverPhotoImage.image = UIImage(named: "coverPhoto")
+    }
 
 }

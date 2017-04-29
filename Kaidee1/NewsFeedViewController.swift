@@ -27,7 +27,7 @@ class NewsFeedViewController: UIViewController,UITableViewDataSource,UITableView
 
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 50
+        return UITableViewAutomaticDimension
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -37,13 +37,11 @@ class NewsFeedViewController: UIViewController,UITableViewDataSource,UITableView
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 5
     }
+    func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 380
+    }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "newProduct", for: indexPath) as! NewProductTableViewCell
-        
-        
-        
-        
-        
         return cell
     }
     
