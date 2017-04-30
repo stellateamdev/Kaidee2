@@ -29,7 +29,20 @@
 		EBC3449D1EB52FD20078E4CC /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC3449C1EB52FD20078E4CC /* CategoryCollectionViewCell.swift */; };
 		EBC344A01EB53BE10078E4CC /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC3449F1EB53BE10078E4CC /* ProductListViewController.swift */; };
 		EBC344A21EB549FA0078E4CC /* ProductListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC344A11EB549FA0078E4CC /* ProductListTableViewCell.swift */; };
-		EFBDD75C1EB493AA008E03FC /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBDD75B1EB493AA008E03FC /* NotificationViewController.swift */; };
+		EBC344AF1EB63A7C0078E4CC /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC344A41EB63A7C0078E4CC /* CAPSPageMenu.swift */; };
+		EBC344B01EB63A7C0078E4CC /* CAPSPageMenu+Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC344A51EB63A7C0078E4CC /* CAPSPageMenu+Options.swift */; };
+		EBC344B11EB63A7C0078E4CC /* CAPSPageMenu+UIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC344A61EB63A7C0078E4CC /* CAPSPageMenu+UIConfiguration.swift */; };
+		EBC344B21EB63A7C0078E4CC /* CAPSPageMenu+UIGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC344A71EB63A7C0078E4CC /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */; };
+		EBC344B31EB63A7C0078E4CC /* CAPSPageMenu+UIScrollViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC344A81EB63A7C0078E4CC /* CAPSPageMenu+UIScrollViewDelegate.swift */; };
+		EBC344B41EB63A7C0078E4CC /* CAPSPageMenuConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC344A91EB63A7C0078E4CC /* CAPSPageMenuConfiguration.swift */; };
+		EBC344B51EB63A7C0078E4CC /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC344AA1EB63A7C0078E4CC /* ChatViewController.swift */; };
+		EBC344B61EB63A7C0078E4CC /* FirstChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC344AB1EB63A7C0078E4CC /* FirstChatViewController.swift */; };
+		EBC344B71EB63A7C0078E4CC /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC344AC1EB63A7C0078E4CC /* MenuItemView.swift */; };
+		EBC344B81EB63A7C0078E4CC /* SecondChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC344AD1EB63A7C0078E4CC /* SecondChatViewController.swift */; };
+		EBC344B91EB63A7C0078E4CC /* ThirdChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC344AE1EB63A7C0078E4CC /* ThirdChatViewController.swift */; };
+		EBC344BE1EB63AA90078E4CC /* NewFollowerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC344BB1EB63AA90078E4CC /* NewFollowerTableViewCell.swift */; };
+		EBC344BF1EB63AA90078E4CC /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC344BC1EB63AA90078E4CC /* NewsTableViewCell.swift */; };
+		EBC344C01EB63AA90078E4CC /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC344BD1EB63AA90078E4CC /* NotificationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,7 +91,20 @@
 		EBC3449C1EB52FD20078E4CC /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
 		EBC3449F1EB53BE10078E4CC /* ProductListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
 		EBC344A11EB549FA0078E4CC /* ProductListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListTableViewCell.swift; sourceTree = "<group>"; };
-		EFBDD75B1EB493AA008E03FC /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		EBC344A41EB63A7C0078E4CC /* CAPSPageMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAPSPageMenu.swift; sourceTree = "<group>"; };
+		EBC344A51EB63A7C0078E4CC /* CAPSPageMenu+Options.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+Options.swift"; sourceTree = "<group>"; };
+		EBC344A61EB63A7C0078E4CC /* CAPSPageMenu+UIConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+UIConfiguration.swift"; sourceTree = "<group>"; };
+		EBC344A71EB63A7C0078E4CC /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+UIGestureRecognizerDelegate.swift"; sourceTree = "<group>"; };
+		EBC344A81EB63A7C0078E4CC /* CAPSPageMenu+UIScrollViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+UIScrollViewDelegate.swift"; sourceTree = "<group>"; };
+		EBC344A91EB63A7C0078E4CC /* CAPSPageMenuConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAPSPageMenuConfiguration.swift; sourceTree = "<group>"; };
+		EBC344AA1EB63A7C0078E4CC /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		EBC344AB1EB63A7C0078E4CC /* FirstChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstChatViewController.swift; sourceTree = "<group>"; };
+		EBC344AC1EB63A7C0078E4CC /* MenuItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
+		EBC344AD1EB63A7C0078E4CC /* SecondChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondChatViewController.swift; sourceTree = "<group>"; };
+		EBC344AE1EB63A7C0078E4CC /* ThirdChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdChatViewController.swift; sourceTree = "<group>"; };
+		EBC344BB1EB63AA90078E4CC /* NewFollowerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewFollowerTableViewCell.swift; sourceTree = "<group>"; };
+		EBC344BC1EB63AA90078E4CC /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		EBC344BD1EB63AA90078E4CC /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +187,7 @@
 		EB62427C1EB21881008483EB /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				EBC344A31EB63A5C0078E4CC /* Chat */,
 				EBC3449E1EB53BC50078E4CC /* ProductList */,
 				EBC344971EB52AD40078E4CC /* Category */,
 				EFBDD7601EB493EC008E03FC /* Profile */,
@@ -197,6 +224,32 @@
 			name = ProductList;
 			sourceTree = "<group>";
 		};
+		EBC344A31EB63A5C0078E4CC /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				EBC344BA1EB63A800078E4CC /* CAPSPageMenu */,
+				EBC344AA1EB63A7C0078E4CC /* ChatViewController.swift */,
+				EBC344AB1EB63A7C0078E4CC /* FirstChatViewController.swift */,
+				EBC344AD1EB63A7C0078E4CC /* SecondChatViewController.swift */,
+				EBC344AE1EB63A7C0078E4CC /* ThirdChatViewController.swift */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		EBC344BA1EB63A800078E4CC /* CAPSPageMenu */ = {
+			isa = PBXGroup;
+			children = (
+				EBC344A41EB63A7C0078E4CC /* CAPSPageMenu.swift */,
+				EBC344A51EB63A7C0078E4CC /* CAPSPageMenu+Options.swift */,
+				EBC344A61EB63A7C0078E4CC /* CAPSPageMenu+UIConfiguration.swift */,
+				EBC344A71EB63A7C0078E4CC /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */,
+				EBC344A81EB63A7C0078E4CC /* CAPSPageMenu+UIScrollViewDelegate.swift */,
+				EBC344A91EB63A7C0078E4CC /* CAPSPageMenuConfiguration.swift */,
+				EBC344AC1EB63A7C0078E4CC /* MenuItemView.swift */,
+			);
+			name = CAPSPageMenu;
+			sourceTree = "<group>";
+		};
 		EFBDD75D1EB493BB008E03FC /* FirstPage */ = {
 			isa = PBXGroup;
 			children = (
@@ -220,7 +273,9 @@
 		EFBDD75F1EB493E3008E03FC /* Notification */ = {
 			isa = PBXGroup;
 			children = (
-				EFBDD75B1EB493AA008E03FC /* NotificationViewController.swift */,
+				EBC344BB1EB63AA90078E4CC /* NewFollowerTableViewCell.swift */,
+				EBC344BC1EB63AA90078E4CC /* NewsTableViewCell.swift */,
+				EBC344BD1EB63AA90078E4CC /* NotificationViewController.swift */,
 			);
 			name = Notification;
 			sourceTree = "<group>";
@@ -372,22 +427,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB62427B1EB1FF51008483EB /* FirstPageViewController.swift in Sources */,
+				EBC344B31EB63A7C0078E4CC /* CAPSPageMenu+UIScrollViewDelegate.swift in Sources */,
+				EBC344BF1EB63AA90078E4CC /* NewsTableViewCell.swift in Sources */,
 				EB9663471EB4A2ED004891A9 /* CollectionViewCell.swift in Sources */,
 				EB9663411EB3B26F004891A9 /* UserProfileViewController.swift in Sources */,
 				EBC3449D1EB52FD20078E4CC /* CategoryCollectionViewCell.swift in Sources */,
 				EB62427F1EB218D0008483EB /* Color.swift in Sources */,
 				EBC3449B1EB52B500078E4CC /* CategoryViewController.swift in Sources */,
+				EBC344B71EB63A7C0078E4CC /* MenuItemView.swift in Sources */,
 				EBC344941EB51A730078E4CC /* BuySellTableViewCell.swift in Sources */,
+				EBC344AF1EB63A7C0078E4CC /* CAPSPageMenu.swift in Sources */,
 				EB9663451EB4A2D9004891A9 /* CustomImageFlowLayout.swift in Sources */,
 				EB62424D1EB1CFD6008483EB /* AppDelegate.swift in Sources */,
+				EBC344B41EB63A7C0078E4CC /* CAPSPageMenuConfiguration.swift in Sources */,
+				EBC344B91EB63A7C0078E4CC /* ThirdChatViewController.swift in Sources */,
 				EB96634B1EB4C204004891A9 /* CustomProfileFlowLayout.swift in Sources */,
+				EBC344C01EB63AA90078E4CC /* NotificationViewController.swift in Sources */,
+				EBC344B21EB63A7C0078E4CC /* CAPSPageMenu+UIGestureRecognizerDelegate.swift in Sources */,
 				EBC344A01EB53BE10078E4CC /* ProductListViewController.swift in Sources */,
 				EBC344961EB51A7E0078E4CC /* RecommendTableViewCell.swift in Sources */,
-				EFBDD75C1EB493AA008E03FC /* NotificationViewController.swift in Sources */,
 				EB6242811EB22638008483EB /* NewsFeedViewController.swift in Sources */,
+				EBC344B51EB63A7C0078E4CC /* ChatViewController.swift in Sources */,
+				EBC344B81EB63A7C0078E4CC /* SecondChatViewController.swift in Sources */,
+				EBC344B61EB63A7C0078E4CC /* FirstChatViewController.swift in Sources */,
 				EB6242831EB22A3E008483EB /* NewProductTableViewCell.swift in Sources */,
 				EB9663491EB4AED8004891A9 /* ProfileViewCell.swift in Sources */,
+				EBC344B01EB63A7C0078E4CC /* CAPSPageMenu+Options.swift in Sources */,
 				EB6242851EB22A57008483EB /* PromotionTableViewCell.swift in Sources */,
+				EBC344B11EB63A7C0078E4CC /* CAPSPageMenu+UIConfiguration.swift in Sources */,
+				EBC344BE1EB63AA90078E4CC /* NewFollowerTableViewCell.swift in Sources */,
 				EBC344A21EB549FA0078E4CC /* ProductListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
